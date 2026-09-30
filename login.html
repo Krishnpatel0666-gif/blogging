@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Login | LaptopVerse</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css"></head>
+<body class="auth-page">
+<header class="navbar"><a class="logo" href="index.html"><span>LV</span> LaptopVerse</a><button class="menu-toggle" id="menuToggle">☰</button><nav id="mainNav"><a href="index.html">Home</a><a href="laptops.html">Laptops</a><a href="blog.html">Blogs</a><a href="wishlist.html">Wishlist <span class="nav-count" id="wishlistCount">0</span></a><a href="about.html">About</a><a class="nav-login active" href="login.html">Login</a></nav><button class="theme-btn" id="themeToggle">☾</button></header>
+<main class="auth-wrap"><div class="auth-card"><div class="auth-brand"><span>LV</span><h1>Welcome back</h1><p>Sign in to your LaptopVerse account.</p></div><form id="loginForm" novalidate><label>Email<input id="loginEmail" type="email" placeholder="you@example.com"></label><small class="error" id="emailError"></small><label>Password<input id="loginPassword" type="password" placeholder="Minimum 6 characters"><button type="button" class="show-pass" id="showLoginPassword">Show</button></label><small class="error" id="passwordError"></small><label class="check-row"><input type="checkbox" id="rememberMe"> Remember me</label><button class="btn primary full" type="submit">Login</button><p class="form-message" id="loginMessage"></p></form><p class="auth-switch">Don't have an account? <a href="signup.html">Create one</a></p><div class="demo-box"><strong>Demo:</strong> Use any valid email and password with 6+ characters.</div></div></main>
+<footer><div class="footer-bottom">© 2026 LaptopVerse</div></footer>
+<script src="js/main.js"></script><script src="js/auth.js"></script>
+</body></html>
